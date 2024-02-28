@@ -1,0 +1,172 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+    --black: black;
+    --purple: purple;
+    --light-color: #666;
+    --box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+}
+
+* {
+    font-family: 'andika';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    text-transform: none;
+    transition: all .2s Linear;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #fff;
+}
+
+/*header*/
+.header {
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    border: 1px solid;
+    justify-content: space-between;
+    padding: 2rem 9%;
+    background: #fff;
+    z-index: 1000;
+    box-shadow: var(--box-shadow);
+}
+
+    .header .logo img {
+        margin-top: 10px;
+        height: 95%;
+        width: 65%;
+        display: inline-block;
+    }
+
+    .header .headbar a {
+        font-size: 1.7rem;
+        border-radius: .5rem;
+        padding: .5rem 1.5rem;
+        color: var(--light-color);
+    }
+
+        .header .headbar a:hover {
+            color: #fff;
+            background: Linear-gradient(120deg,#FAB2FF 40%,#663399);
+        }
+
+    .header .menubtn {
+        margin-right: 60px;
+    }
+
+        .header .menubtn button {
+            padding: 10px 45px;
+            text-align: center;
+            font-size: 14px;
+            color: #fff;
+            border: none;
+            background-color: #fff;
+            border-radius: 10px;
+        }
+/*header*/
+
+/*banner*/
+.banner {
+    height: 80px;
+    margin-bottom: 135px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: block;
+}
+    .banner img {
+    width: 100%;
+    height: 275%;
+    display: relative;
+    margin-top: 100px;
+    }
+
+    .banner .container {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        position: relative;
+        min-height: 1px;
+    }
+
+    .banner .title {
+        font-size: 7em;
+        margin: 0 0 0.5em;
+        text-align: left;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-shadow: 5px 5px 10px rgba(150, 150, 150, 1);
+        color: white;
+        font-weight: 1000;
+        line-height: 1.1;
+    }
+/*banner*/
+
+/*main*/
+
+.main {
+    width: 100%;
+    display: flex;
+}
+
+    .main .center {
+        text-align: justify;
+        line-height: 1.6;
+    }
+
+        .main .center h1 {
+            margin-top: 120px;
+            margin-bottom: 5px;
+            font-size: 4em;
+            text-align: left;
+            color: #003399;
+            padding-left: 20px;
+        }
+
+        .main .center p {
+            margin-top: 10px;
+            margin-bottom: 20px;
+            margin-left: 50px;
+            margin-right: 70px;
+            font-size: 2.5em;
+            color: var(--light-color);
+        }
+
+        .main .center ul {
+            position: relative;
+            min-height: 1px;
+            padding-right: 15px;
+            padding-left: 30px;
+            margin-left: 50px;
+            column-count: 1;
+            column-gap: 30px;
+            font-size: 2em;
+            color: var(--light-color);
+            list-style-type: none;
+        }
+
+    .main .map {
+        margin-top: 130px;
+        height: 60%;
+        border-left: 2px inset #B0E0E6;
+        box-shadow: var(--box-shadow);
+        padding-left: 20px;
+    }
+
