@@ -80,64 +80,165 @@ body{
     font-size: 14px;
     color: #fff;
     border: none;
-    background-image: Linear-gradient(to right,#649bff,#0070fa,#649bff);
+    background-color: #fff;
     border-radius: 10px;
 }
 /*header*/
 
+/*banner*/
+
+.mySlides {
+    display: none
+}
+
+img {
+    vertical-align: middle;
+}
+
+.slideshow-container {
+    max-width: 10000px;
+    position: relative;
+    margin-top: 50px;
+}
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+    .prev:hover,
+    .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+.text {
+    color: darkgray;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+.numbertext {
+    color: #ffffff;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #999999;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+    .active,
+    .dot:hover {
+        background-color: #111111;
+    }
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 2.5s;
+    animation-name: fade;
+    animation-duration: 2.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+/*banner*/
+
 /*main*/
 
-.main{
+.main {
     width: 100%;
     display: flex;
+    margin-top: 10px;
 }
 
-.main .left{
-    padding-left: 50px;
-    text-align: center;
-    line-height: 1.6;
-}
+    .main .left {
+        padding-left: 110px;
+        padding-right: 50px;
+        text-align: center;
+        line-height: 1.6;
+    }
 
-.main .left h2{
-    padding-top: 46%;
-    font-size: 15px;
-    text-transform: capitalize;
-    color: var(--light-color);
-    margin-top: 100px;
-}
+        .main .left h2 {
+            padding-top: 10%;
+            font-size: 15px;
+            text-transform: capitalize;
+            color: var(--light-color);
+            margin-top: 10px;
+        }
 
-.main .left h1{
-    font-size: 42px;
-    text-transform: capitalize;
-    font-weight: 700;
-    margin: 15px 0;
-}
+        .main .left h1 {
+            font-size: 25px;
+            text-transform: capitalize;
+            width: 275px;
+            font-weight: 700;
+            padding-top: 5%;
+        }
 
-.main .left p{
-    margin-bottom: 20px;
-    font-size: 15px;
-    color: var(--light-color);
-}
+        .main .left p {
+            padding-top: 5%;
+            margin-bottom: 30px;
+            font-size: 15px;
+            color: var(--light-color);
+        }
 
-.main .left button{
-    padding-top: 12px;
-    padding: 15px 45px;
-    text-align: center;
-    font-size: 14px;
-    color: #fff;
-    border: 1px solid;
-    box-shadow: var(--box-shadow);
-    background-image: Linear-gradient(to right,#649bff,#0070fa,#649bff); ;
-    border-radius: 10px;
+        .main .left button {
+            padding-top: 12px;
+            padding: 15px 45px;
+            text-align: center;
+            font-size: 14px;
+            color: #fff;
+            border: 1px solid;
+            box-shadow: var(--box-shadow);
+            background-image: Linear-gradient(to right,#649bff,#0070fa,#649bff);
+            border-radius: 10px;
+        }
 
-}
-
-.main .right img{
-    padding-top: 25%;
-    width: 130%;
-    height: 113%;
-    display: flex;
-    margin-left: 0;
-}
+    .main .right img {
+        width: 40%;
+        height: 60%;
+        display: relative;
+        margin-right: 25px;
+        margin-top: 30px;
+        margin-left:30px;
+    }
 
 /*main*/
