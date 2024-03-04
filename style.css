@@ -191,32 +191,34 @@ img {
 }
 
     .main .left {
-        padding-left: 110px;
+        padding-left: 70px;
         padding-right: 50px;
         text-align: center;
         line-height: 1.6;
+        padding-top: 90px;
     }
 
         .main .left h2 {
             padding-top: 10%;
-            font-size: 15px;
+            font-size: 25px;
             text-transform: capitalize;
             color: var(--light-color);
             margin-top: 10px;
         }
 
         .main .left h1 {
-            font-size: 25px;
+            font-size: 30px;
             text-transform: capitalize;
-            width: 275px;
+            width: 350px;
             font-weight: 700;
             padding-top: 5%;
+            color: #003399;
         }
 
         .main .left p {
             padding-top: 5%;
             margin-bottom: 30px;
-            font-size: 15px;
+            font-size: 20px;
             color: var(--light-color);
         }
 
@@ -232,13 +234,16 @@ img {
             border-radius: 10px;
         }
 
+
     .main .right img {
-        width: 40%;
-        height: 60%;
+        width: 30%;
+        height: 30%;
         display: relative;
-        margin-right: 25px;
+        margin-right: 10px;
         margin-top: 30px;
-        margin-left:30px;
+        margin-left: 10px;
+        border-left: groove;
+        box-shadow: var(--box-shadow);
     }
 
 /*main*/
