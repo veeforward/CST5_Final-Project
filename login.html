@@ -15,13 +15,13 @@
 
     <header class="header">
         <a href="#" class="logo">
-            <img src="logo.png">
+            <img src="../CST5_Final-Project/images/logo.png">
         </a>
 
         <nav class="headbar">
             <a href="index.html">Home</a>
             <a href="login.html">Login</a>
-            <a href="#product">Product</a>
+            <a href="Product.html">Product</a>
             <a href="contact-us.html">Contact</a>
             <a href="about-us.html">About Us</a>
         </nav>
@@ -34,7 +34,7 @@
 
     <div class="container" id="container">
         <div class="form sign-up-container">
-            <form action="#">
+            <form action="../CST5_Final-Project/php/signup.php" method="post">
                 <h1>Create An Account</h1>
                 <div class="social-container">
                     <a href="#" class="social"><i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -46,17 +46,17 @@
 
                 <div class="input-field">
                     <i class="fa fa-user"></i>
-                    <input type="text" placeholder="Username">
+                    <input type="text" placeholder="Username" name="username">
                 </div>
                  
                 <div class="input-field">
                     <i class="fa fa-envelope"></i>
-                    <input type="email" placeholder="Email">
+                    <input type="email" placeholder="Email" name="email">
                 </div>
 
                 <div class="input-field">
                     <i class="fa fa-lock"></i>
-                    <input type="password" placeholder="Password">
+                    <input type="password" placeholder="Password" name="password">
                 </div>
 
                 <button>Sign Up</button>
@@ -76,12 +76,12 @@
 
                 <div class="input-field">
                     <i class="fa fa-user"></i>
-                    <input type="text" placeholder="Username">
+                    <input type="text" placeholder="Username" name="username">
                 </div>
                      
                 <div class="input-field">
                     <i class="fa fa-lock"></i>
-                    <input type="password" placeholder="Password">
+                    <input type="password" placeholder="Password" name="password">
                 </div>
                 <a href="#">Forgot your password?</a>
                 <button>Sign In</button>
@@ -94,7 +94,7 @@
                     <h1>Welcome Back!</h1>
                     <p>To keep connected with us please login with
                         your personal info </p>
-                    <img src="s1.png" style="height: 25rem; width: 30rem; padding-top: 5%;">
+                    <img src="../CST5_Final-Project/images/s1.png" style="height: 25rem; width: 30rem; padding-top: 5%;">
                     <button class="btn" id="signIn"> Sign in</button>
                 </div>
 
@@ -102,7 +102,7 @@
                     <h1>Hello User!</h1>
                     <p>Enter your personal details and start your
                         journey with us</p>
-                    <img src="s3.png" style="height: 25rem; width: 30rem;">
+                    <img src="../CST5_Final-Project/images/s3.png" style="height: 25rem; width: 30rem;">
                     <button class="btn" id="signUp"> Sign Up</button>
                 </div>
             </div>
