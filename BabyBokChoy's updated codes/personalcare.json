@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "HEAD & SHOULDERS Cool Menthol Shampoo 180ml",
+        "price": 196.25,
+        "image": "med-pc-1.png"
+    },
+    {
+        "id": 2,
+        "name": "MODESS Maxi Regular Cottony Soft with Wings",
+        "price": 44.25,
+        "image": "med-pc-2.png"  
+    },
+    {
+        "id": 3,
+        "name": "COLGATE Triple Action Toothpaste Twin Pack",
+        "price": 184,
+        "image": "med-pc-3.png"
+    },
+    {
+        "id": 4,
+        "name": "SAFEGUARD Pure White Bar Soap 175g",
+        "price": 79,
+        "image": "med-pc-4.png"
+    }
+]

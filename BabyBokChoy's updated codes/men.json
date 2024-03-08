@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "NIVEA Men Deodorant Roll-On 50ml",
+        "price": 159,
+        "image": "med-mc-1.png"
+    },
+    {
+        "id": 2,
+        "name": "CLEAR Men Shampoo Menthol 170ml",
+        "price": 190,
+        "image": "med-mc-2.png"  
+    },
+    {
+        "id": 3,
+        "name": "GILLETTE Blue Ice 4s Pack",
+        "price": 300,
+        "image": "med-mc-3.png"
+    },
+    {
+        "id": 4,
+        "name": "REXONA Men Deodorant Roll-On 45ml",
+        "price": 148,
+        "image": "med-mc-4.png"
+    }
+]

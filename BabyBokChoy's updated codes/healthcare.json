@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "ADVIL Liquid Gel Capsule",
+        "price": 175.5,
+        "image": "med-hc-1.png"
+    },
+    {
+        "id": 2,
+        "name": "ALLERTA 10mg Tablet",
+        "price": 23.5,
+        "image": "med-hc-2.png"  
+    },
+    {
+        "id": 3,
+        "name": "ASCOF Forte 600mg Syrup",
+        "price": 278.5,
+        "image": "med-hc-3.png"
+    },
+    {
+        "id": 4,
+        "name": "BONAMINE 25mg (9+1)",
+        "price": 126,
+        "image": "med-hc-4.png"
+    }
+]

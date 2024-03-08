@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "SOME BY MI Yuja Niacin Toner 150ml",
+        "price": 1299,
+        "image": "med-bt-1.png"
+    },
+    {
+        "id": 2,
+        "name": "SOME BY MI Yuja Niacin Gel Cream 100ml",
+        "price": 999,
+        "image": "med-bt-2.png"  
+    },
+    {
+        "id": 3,
+        "name": "BANILA CO Cleansing Balm 180ml",
+        "price": 1395,
+        "image": "med-bt-3.png"
+    },
+    {
+        "id": 4,
+        "name": "BANILA CO Foam Cleanser 150ml",
+        "price": 595,
+        "image": "med-bt-4.png"
+    }
+]

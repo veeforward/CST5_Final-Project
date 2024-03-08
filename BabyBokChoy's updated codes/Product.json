@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name": "ADVIL Liquid Gel Capsule",
+        "price": 175.5,
+        "image": "med-hc-1.png"
+    },
+    {
+        "id": 2,
+        "name": "SOME BY MI Yuja Niacin Toner 150ml",
+        "price": 1299,
+        "image": "med-bt-1.png"  
+    },
+    {
+        "id": 3,
+        "name": "HEAD & SHOULDERS Cool Menthol Shampoo 180ml",
+        "price": 196.25,
+        "image": "med-pc-1.png"
+    },
+    {
+        "id": 4,
+        "name": "NIVEA Men Deodorant Roll-On 50ml",
+        "price": 159,
+        "image": "med-mc-1.png"
+    },
+    {
+        "id": 5,
+        "name": "EQ Dry Baby Diapers M 36s",
+        "price": 347,
+        "image": "med-bb-1.png"
+    },
+    {
+        "id": 6,
+        "name": "MALLERTA 10mg Tablet",
+        "price": 23.5,
+        "image": "med-hc-2.png"
+    },
+    {
+        "id": 7,
+        "name": "SOME BY MI Yuja Niacin Gel Cream 100ml",
+        "price": 999,
+        "image": "med-bt-2.png"
+    },
+    {
+        "id": 8,
+        "name": "MODESS Maxi Regular Cottony Soft with Wings",
+        "price": 44.25,
+        "image": "med-pc-2.png"
+    }
+   
+]

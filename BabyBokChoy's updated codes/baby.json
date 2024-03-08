@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "EQ Dry Baby Diapers M 36s",
+        "price": 347,
+        "image": "med-bb-1.png"
+    },
+    {
+        "id": 2,
+        "name": "PAMPERS Dry Pants Diapers M 34s",
+        "price": 408,
+        "image": "med-bb-2.png"  
+    },
+    {
+        "id": 3,
+        "name": "TENDER CARE Body Wash 380ml",
+        "price": 328,
+        "image": "med-bb-3.png"
+    },
+    {
+        "id": 4,
+        "name": "JOHNSONS Baby Powder 100g",
+        "price": 68,
+        "image": "med-bb-4.png"
+    }
+]
