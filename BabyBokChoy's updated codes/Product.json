@@ -7,45 +7,123 @@
     },
     {
         "id": 2,
-        "name": "SOME BY MI Yuja Niacin Toner 150ml",
-        "price": 1299,
-        "image": "med-bt-1.png"  
+        "name": "ALLERTA 10mg Tablet",
+        "price": 23.5,
+        "image": "med-hc-2.png"  
     },
     {
         "id": 3,
+        "name": "ASCOF Forte 600mg Syrup",
+        "price": 278.5,
+        "image": "med-hc-3.png"
+    },
+    {
+        "id": 4,
+        "name": "BONAMINE 25mg (9+1)",
+        "price": 126,
+        "image": "med-hc-4.png"
+    },
+    {
+        "id": 5,
+        "name": "SOME BY MI Yuja Niacin Toner 150ml",
+        "price": 1299,
+        "image": "med-bt-1.png"
+    },
+
+    {
+        "id": 6,
+        "name": "SOME BY MI Yuja Niacin Gel Cream 100ml",
+        "price": 999,
+        "image": "med-bt-2.png"  
+    },
+    {
+        "id": 7,
+        "name": "BANILA CO Cleansing Balm 180ml",
+        "price": 1395,
+        "image": "med-bt-3.png"
+    },
+    {
+        "id": 8,
+        "name": "BANILA CO Foam Cleanser 150ml",
+        "price": 595,
+        "image": "med-bt-4.png"
+    },
+
+    {
+        "id": 9,
         "name": "HEAD & SHOULDERS Cool Menthol Shampoo 180ml",
         "price": 196.25,
         "image": "med-pc-1.png"
     },
     {
-        "id": 4,
+        "id": 10,
+        "name": "MODESS Maxi Regular Cottony Soft with Wings",
+        "price": 44.25,
+        "image": "med-pc-2.png"  
+    },
+    {
+        "id": 11,
+        "name": "COLGATE Triple Action Toothpaste Twin Pack",
+        "price": 184,
+        "image": "med-pc-3.png"
+    },
+    {
+        "id": 12,
+        "name": "SAFEGUARD Pure White Bar Soap 175g",
+        "price": 79,
+        "image": "med-pc-4.png"
+    },
+    {
+        "id": 13,
         "name": "NIVEA Men Deodorant Roll-On 50ml",
         "price": 159,
         "image": "med-mc-1.png"
     },
+
     {
-        "id": 5,
+        "id": 14,
+        "name": "CLEAR Men Shampoo Menthol 170ml",
+        "price": 190,
+        "image": "med-mc-2.png"  
+    },
+    {
+        "id": 15,
+        "name": "GILLETTE Blue Ice 4s Pack",
+        "price": 300,
+        "image": "med-mc-3.png"
+    },
+    {
+        "id": 16,
+        "name": "REXONA Men Deodorant Roll-On 45ml",
+        "price": 148,
+        "image": "med-mc-4.png"
+    },
+
+    {
+        "id": 17,
         "name": "EQ Dry Baby Diapers M 36s",
         "price": 347,
         "image": "med-bb-1.png"
     },
     {
-        "id": 6,
-        "name": "MALLERTA 10mg Tablet",
-        "price": 23.5,
-        "image": "med-hc-2.png"
+        "id": 18,
+        "name": "PAMPERS Dry Pants Diapers M 34s",
+        "price": 408,
+        "image": "med-bb-2.png"  
     },
     {
-        "id": 7,
-        "name": "SOME BY MI Yuja Niacin Gel Cream 100ml",
-        "price": 999,
-        "image": "med-bt-2.png"
+        "id": 19,
+        "name": "TENDER CARE Body Wash 380ml",
+        "price": 328,
+        "image": "med-bb-3.png"
     },
     {
-        "id": 8,
-        "name": "MODESS Maxi Regular Cottony Soft with Wings",
-        "price": 44.25,
-        "image": "med-pc-2.png"
+        "id": 20,
+        "name": "JOHNSONS Baby Powder 100g",
+        "price": 68,
+        "image": "med-bb-4.png"
     }
-   
 ]
+
+
+
