@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="checkout.css">
 </head>
 <body>
-    
+
 <div class="container">
     <div class="checkoutLayout">
 
@@ -19,55 +19,114 @@
                 <div class="item">
                     <img src="images/1.webp">
                     <div class="info">
-                        <div class="name">PRODUCT 1</div>
-                        <div class="price">₱22/1 product</div>
+                        <div class="name"> </div>
+                        <div class="price"> </div>
                     </div>
-                    <div class="quantity">5</div>
-                    <div class="returnPrice">₱433.3</div>
+                    <div class="quantity"></div>
+                    <div class="returnPrice"></div>
                 </div>
-
             </div>
         </div>
 
         <div class="right">
             <h1>Checkout</h1>
 
+            <form id ="MyForm" action="checkout.php" method="post">
             <div class="form">
-    
                 <div class="group">
                     <label for="phone">Phone Number</label>
-                    <input type="text" name="phone" id="phone">
+                    <input type="text" name="phone" id="phones" required>
                 </div>
     
                 <div class="group">
                     <label for="address">Address</label>
-                    <input type="text" name="address" id="address">
+                    <input type="text" name="address" id="addresss" required>
                 </div>
     
                 <div class="group">
                     <label for="city">City</label>
-                    <select name="city" id="city">
+                    <select name="city" id="citys">
                         <option value="">Choose..</option>
                         <option value="">Davao City</option>
                     </select>
                 </div>
             </div>
+
+              <input type="hidden" name="totalQuantity" id="totalQuantityInput" value="">
+             <input type="hidden" name="totalPrice" id="totalPriceInput" value="">
+
             <div class="return">
                 <div class="row">
                     <div>Total Quantity</div>
-                    <div class="totalQuantity">70</div>
+                    <div class="totalQuantity" id="totalQuantityDisplay"></div>
+                   
                 </div>
                 <div class="row">
                     <div>Total Price</div>
-                    <div class="totalPrice">$900</div>
+                    <div class="totalPrice" id="totalPriceDisplay"></div>
                 </div>
             </div>
-            <button class="buttonCheckout">CHECKOUT</button>
+            <!--<button class="buttonCheckout" onclick="submitButton()">CHECKOUT</button>-->
+            <input class= "buttonCheckout" type="submit" value="CHECKOUT">
             </div>
+            </form>
     </div>
 </div>
 
-<script src="checkout.js"></script>
+<script>
+    let listCart = [];
+function checkCart(){
+        var cookieValue = document.cookie
+        .split('; ')
+        .find(row => row.startsWith('listCart='));
+        if(cookieValue){
+            listCart = JSON.parse(cookieValue.split('=')[1]);
+        }
+}
+
+function addCartToHTML(){
+
+    let listCartHTML = document.querySelector('.returnCart .list');
+    listCartHTML.innerHTML = '';
+    
+    /*let totalQuantityHTML = document.querySelector('.totalQuantity');
+    let totalPriceHTML = document.querySelector('.totalPrice');*/
+    let totalQuantity = 0;
+    let totalPrice = 0;
+ 
+    if(listCart){
+        listCart.forEach(product => {
+            if(product){
+                let newCart = document.createElement('div');
+                newCart.classList.add('item');
+                newCart.innerHTML = 
+                    `<img src="${product.image}">
+                    <div class="info">
+                        <div class="name">${product.name}</div>
+                        <div class="price">₱${product.price}/1 product</div>
+                    </div>
+                    <div class="quantity">${product.quantity}</div>
+                    <div class="returnPrice">₱${product.price * product.quantity}</div>`;
+                listCartHTML.appendChild(newCart);
+                totalQuantity = totalQuantity + product.quantity;
+                totalPrice = totalPrice + (product.price * product.quantity);
+            }
+        })
+    }
+    /*totalQuantityHTML.innerText = totalQuantity;
+    totalPriceHTML.innerText = '₱' + totalPrice;*/
+
+            document.getElementById('totalQuantityDisplay').innerText = totalQuantity;
+        document.getElementById('totalPriceDisplay').innerText = '₱' + totalPrice;
+
+        // Update hidden input fields
+        document.getElementById('totalQuantityInput').value = totalQuantity;
+        document.getElementById('totalPriceInput').value = totalPrice;
+}
+
+checkCart();
+addCartToHTML();
+</script>
 
 </body>
 </html>
