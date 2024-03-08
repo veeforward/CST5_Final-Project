@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="png" href="favicon.png">
+    <title>Product Page</title>
+
+<link rel="stylesheet" type="text/css" href="Product.css">
+
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+ 
+<header class ="header">
+    <a href="#" class="logo">
+        <img src="logo.png">    
+    </a>
+    <nav class="headbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="Product.html">Product <i class="fas fa-caret-down"></i></a>
+
+            <div class="dropdown-menu">
+                <ul>
+                  <li><a href="healthcare.html">Health Care</a></li>
+                  <li><a href="beauty.html">Beauty</a></li>
+                  <li>
+                    <a href="personalcare.html">Personal Care <i class="fas fa-caret-right"></i></a>
+                    
+                    <div class="dropdown-menu-1">
+                      <ul>
+                        <li><a href="#">Sanitizer</a></li>
+                        <li><a href="#">Hair Care</a></li>
+                        <li><a href="#">Oral Care</a></li>
+                        <li><a href="#">Bath & Body</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a href="men.html">Men Care</a></li>
+                  <li><a href="baby.html">Baby & Kids</a></li>
+                </ul>
+              </div>
+            </li>
+
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About Us</a></li>
+    </ul>
+    </nav>
+
+    <div class="hero">
+        &nbsp;
+      </div>
+  
+    <div class="icon">
+        <div class="fa fa-search" id="search-btn"></div>
+        <div class="fa fa-shopping-cart" id="cart-btn">
+           
+            <span>0</span>
+
+        </div>        
+        
+        <div class="fa fa-user" id="user-btn" onclick="toggleMenu()"></div>
+
+    </div>
+
+    <form class="search-form">
+        <input type="search" id="search-box" placeholder="Type Something...">
+        <label for="search-box" class="fa fa-search"></label>
+    </form>
+
+
+    <div class="user-form-wrap" id="subMenu">
+        <div class="sub-menu">
+            <div class="user-info">
+                <img src="user.jpg">
+                <h3>Paul Teves</h3>
+            </div>
+            <hr>
+
+            <a href="#" class="sub-menu-link">
+                <img src="profile.png">
+                <p>My Account</p>
+                <span>></span>
+            </a>
+        
+            <a href="logout.html" class="sub-menu-link">
+                <img src="logout.png">
+                <p>Logout</p>
+                <span>></span>
+            </a>
+        </div>
+        </div>
+    </div>
+
+</header>
+
+<section class="top" id="top">
+    <div class="container">
+        <h1 class="heading">PHARMACY</h1><hr>
+    </div>
+
+
+</section>
+
+
+<script type="text/javascript" src="Product.js"></script>
+
+<script>
+    let subMenu = document.getElementById("subMenu");
+
+    function toggleMenu(){
+        subMenu.classList.toggle("open-menu");
+    }
+</script>
+
+    
+</body>
+
+<body class="body2">
+    <div class="header2">
+
+    <div class="container2">
+        <header>
+            <div class="title">PRODUCT LIST</div>
+                
+        </header>
+
+        <div class="ListProduct">
+            <div class="item">
+                <img src="med-hc-1.png" alt="">
+                <h2>ADVIL Liquid Gel Capsule</h2>
+                <div class="price">₱175.5</div>
+                <button class="addCart">
+                    Add To Cart
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="cartTab">
+        <h1>Shopping Cart</h1>
+        <div class="ListCart">
+            <div class="item">
+                <div class="image">
+                    <img src="med-hc-1.png" alt="">
+                </div>
+                <div class="name">
+                    NAME
+                </div>
+                <div class="totalPrice">
+                    ₱100
+                </div>
+                <div class="quantity">
+                    <span class="minus"><</span>
+                    <span>1</span>
+                    <span class="plus">></span>
+                </div>
+            </div>
+
+        </div>
+        <div class="btn">
+            <button class="close">CLOSE</button>
+            <button class="checkOut">CHECK OUT</button>
+        </div>
+    </div>
+    </div>
+    <script src="app3.js"></script>
+</body>
+</html>
