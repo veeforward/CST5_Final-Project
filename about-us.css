@@ -68,17 +68,13 @@ body {
 
     .header .menubtn {
         margin-right: 60px;
+        padding: 10px 45px;
+        text-align: center;
+        font-size: 14px;
+        border: none;
+        border-radius: 10px;
     }
 
-        .header .menubtn button {
-            padding: 10px 45px;
-            text-align: center;
-            font-size: 14px;
-            color: #fff;
-            border: none;
-            background-color: #fff;
-            border-radius: 10px;
-        }
 /*header*/
 
 /*banner*/
