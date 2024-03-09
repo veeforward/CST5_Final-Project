@@ -610,7 +610,7 @@ header .totalQuantity{
     position: fixed;
     width: 400px;
     max-width: 80vw;
-    height: 83.5vh;
+    height: 86vh;
     background-color: #0E0F11;
     top: 100px;
     right: -100%;
@@ -795,7 +795,7 @@ header .totalQuantity{
 
 .price {
     font-size: 1rem;
-    color: #fff;
+  
 }
 
 button {
@@ -811,5 +811,6 @@ button {
 button:hover {
     background-color: #0056b3;
 }
+
 
 
